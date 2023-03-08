@@ -1,0 +1,107 @@
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(142, 188, 217);
+}
+
+.headerPrincipal {
+    text-align: center;
+
+}
+
+.container {
+   align-items: center;
+}
+
+.tituloPrincipal {
+    font-size: 35px;
+    color: rgb(15, 16, 15);
+    text-decoration: underline;
+}
+
+.subtitulo {
+    font-size: 30px;
+    color: rgb(140, 109, 111);
+    text-decoration: underline;
+}
+.container2{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.lista1 {
+    font-size: 21px;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+.busqueda{
+    text-align: center;
+    font-size: 27px;
+}
+
+.historia {
+    color:rgba(21, 23, 23, 0.511);
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+.estudios {
+    color:rgba(21, 23, 23, 0.511);
+    text-align: center;
+    text-decoration: underline;
+}
+.lista2 {
+    font-size: 22px;
+}
+.lista3 {
+    font-size: 22px;
+}
+.habilidades {
+    color:blue;
+    text-align: center;
+}
+
+.lista4 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+#contacto{
+    font-size: 27px;
+    text-align: center;
+    color: rgb(3, 22, 1);
+}
+
+#listacontacto{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    
+}
+
+#listaContacto-click1, #listaContacto-click2, #listaContacto-click3, #listaContacto-click4, #listaContacto-click5 {
+    border-style: outset;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 5px;
+	color: #0a144d;
+	background-color: #87a189;
+	text-decoration: none;
+    border-radius: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+	
+    }
+.pie{
+    font-size: 18px;
+    text-align: center;
+}
+.fotoperfil{
+    border: #101013 12px solid;
+
+
+}
